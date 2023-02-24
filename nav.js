@@ -1,5 +1,4 @@
 const menu = document.querySelector('.menu');
-const logo = document.querySelector('elem-cabe');
 const menuAltura = menu.offsetHeight;
 const scrollPosicion = window.scrollY;
 
