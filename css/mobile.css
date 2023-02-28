@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Numans&display=swap');
 
+/*BARRA DE MENU*/
 .menu {
-  /* background-color: white; */
   z-index: 3;
   position: relative;
   position: fixed;
@@ -11,25 +11,8 @@
   height: 40px;
   display: flex;
   align-content: end;
-  /* align-items: center; */
-  /* justify-items: end; */
   width: 100%;
-  /* border: 1px solid red; */
-  /* border: 1px solid red; */
 }
-
-/* .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #ffffff;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  width: 100%;
-} */
 
 /*Clase que se añade mediante el script de JS*/
 .scrolled {
@@ -43,10 +26,8 @@
 .elem-cabe {
   width: 90%;
   background-image: url('https://well-app.cdn.bubble.io/d75/f1663693747930x866228779135072500/Logo_Noir.svg');
-  /* border: 1px solid white; */
   height: 20px;
   display: flex;
-  /* padding-top: 20px; */
   align-items: center;
   background-repeat: no-repeat;
   background-position: 53%;
@@ -61,15 +42,14 @@
   padding-left: 20px;
   justify-content: flex-start;
   gap: 0px 20px;
-  /* display: none; */
   border-radius: 0px;
   width: 12%;
-  /* border: 1px solid red; */
 }
 
 .elem-cabe-left > button {
   display: none;
 }
+
 .elem-cabe-left > a {
   display: none;
 }
@@ -82,43 +62,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-grow: 1; */
   margin: 0px;
-  /* padding-right: 40px; */
   padding-right: 0;
   gap: 0px 20px;
-  /* border: 1px solid red; */
   border-radius: 0px;
 }
 
 .elem-cabe-rigth > div > a > img:first-child {
   width: 20px;
-  /* border: 1px solid green; */
 }
 
 .elem-cabe-rigth > a > img:first-child {
   width: 20px;
-
-  /* border: 1px solid red; */
 }
-/* 
-.elem-cabe-rigth a {
-  padding-top: 5px;
-  font-family: "Montserrat";
-  font-size: 14px;
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-  line-height: 1.5;
-  padding-right: -20px;
-  border: 1px solid red;
-  width: 20%;
-} */
 
 .identificarse {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* display: none; */
 }
 
 .identificarse > a > p {
@@ -166,7 +127,7 @@
 .banner {
   width: 100%;
   display: flex;
-  height: 40px;
+  height: 60px;
   align-items: center;
   background-color: #fd7e14;
   text-align: center;
@@ -184,14 +145,13 @@
   color: white;
 }
 
+/**IMAGEN PRINCIPAL DEL HEADER */
+
 .imagen-principal {
-  background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1669625365899x265394123099430100%2FBanner-hero-2800x1200-rebrand-trad-es.jpg?w=1536&h=&auto=compress&dpr=3&fit=max');
-  height: 700px;
-  background-position: center;
+  background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1669625280595x240802983719949900%2FBanner-hero-mobile-rebrand-trad-es.jpg?w=512&h=&auto=compress&dpr=1.25&fit=max');
+  /* height: 700px; */
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: -80px;
-  position: relative;
+  /* margin-top: -80px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,12 +165,11 @@
   font-family: 'Numans';
   font-size: 32px;
   color: rgb(0, 0, 0);
-  /* text-align: left; */
   width: 80%;
+  margin-top: -150px;
 }
 
 .imagen-principal-texto > h2 > strong {
-  /* padding-top: 20px; */
   font-weight: 600;
   white-space: nowrap;
 }
@@ -220,8 +179,9 @@
   text-align: left;
   font-family: 'Numans';
   font-weight: 400;
-  /* border: 1px solid red; */
 }
+
+/*PRIMER BLOQUE DE CONTENIDO --> RUTINAS */
 
 .contenido {
   display: block;
@@ -249,13 +209,9 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-
-  /* border: 1px solid red; */
 }
 
 .rutina {
-  /* background-color: #fd7e14; */
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,7 +221,6 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* border: 1px solid orange; */
   width: 80%;
 }
 
@@ -273,7 +228,6 @@
   width: 100%;
   text-align: right;
   color: rgb(250, 203, 160);
-  /* border: 1px solid black; */
   margin: 0;
   font-family: 'Numans';
   font-size: 55px;
@@ -290,23 +244,22 @@
   line-height: 1.5;
   padding-bottom: 10px;
 }
+
 .rutina img {
   width: 40px;
-
-  /* border: 1px solid red; */
 }
 
 .rutina p {
   width: 100%;
   text-align: left;
   margin-bottom: 40px;
-  /* height: 100px; */
-  /* border: 1px solid red; */
 }
 
 .container {
   height: 1000px;
 }
+
+/*SEGUNDO BLOQUE DE CONTENIDO --> SEGUIMIENTO */
 
 .seguimiento {
   display: flex;
@@ -314,7 +267,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* margin-top: 50px; */
 }
 
 .seguimiento-left {
@@ -332,18 +284,15 @@
   width: 70%;
   border: 1px solid rgb(4, 74, 99);
   text-align: left;
-  /* margin-left: 10%; */
   font-family: 'Numans';
   font-size: 28px;
   font-weight: 400;
   color: rgb(255, 255, 255);
-  /* padding-top: 20px; */
   margin-top: 0;
 }
 
 .seguimiento-left p {
   width: 70%;
-  /* margin-left: 10%; */
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 400;
@@ -358,11 +307,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* margin-bottom: 60px; */
 }
 
 .seguimiento-btns button {
-  /* align-self: center; */
   max-width: 300px;
   min-height: 40px;
   width: 300px;
@@ -387,15 +334,8 @@
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-  /* padding-bottom: 30px; */
   height: 500px;
   background-color: rgb(230, 241, 245);
-}
-
-.seguimiento-right h2 {
-}
-
-.seguimiento-right p {
 }
 
 .line {
@@ -430,21 +370,20 @@
   line-height: 1.5;
 }
 
+/*TERCER BLOQUE DE CONTENDIO --> ETAPAS*/
+
 .etapas {
   width: 100%;
 }
 
 .cabecera {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid orange; */
 }
 
 .cabecera h2 {
-  /* border: 1px solid red; */
   font-family: 'Numans';
   font-size: 28px;
   font-weight: 400;
@@ -456,26 +395,22 @@
 }
 
 .cabecera p {
-  /* border: 1px solid red; */
   width: 100%;
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 400;
-  /* color: rgb(0, 0, 0); */
   margin-left: 0;
   line-height: 1.5;
 }
+
 .cabecera-etapas {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid orange; */
 }
 
 .cabecera-etapas h2 {
-  /* border: 1px solid red; */
   font-family: 'Numans';
   font-size: 28px;
   font-weight: 400;
@@ -487,7 +422,6 @@
 }
 
 .cabecera-etapas p {
-  /* border: 1px solid red; */
   width: 100%;
   font-family: 'Montserrat';
   font-size: 14px;
@@ -497,22 +431,13 @@
   line-height: 1.5;
 }
 
-.etapas h2 {
-  /* width: 80%; */
-  /* margin-left: 10%; */
-}
-
 .etapas p {
   width: 90%;
-  /* margin-left: 10%; */
 }
 
 .etapas-left {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center;s */
   flex-direction: column;
-  /* border: 1px solid green; */
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 5%;
@@ -523,7 +448,6 @@
   padding-left: 10%;
   padding-right: 10%;
   margin-left: 0;
-  /* border: 1px solid red; */
 }
 
 .line-etapas {
@@ -532,12 +456,10 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .line-etapas h2 {
   width: 90%;
-  /* border: 1px solid orange; */
   font-family: 'Numans';
   font-size: 22px;
   font-weight: 400;
@@ -550,7 +472,6 @@
 
 .line-etapas p {
   width: 90%;
-  /* border: 1px solid orange; */
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 400;
@@ -562,9 +483,9 @@
 .line-etapas button {
   align-self: center;
   margin-left: 0;
-  /* margin-left: 10%; */
-  /* border: 1px solid black; */
 }
+
+/*CUARTO BLOQUE DE CONTENIDO --> APPS MOVIL*/
 
 .tienda {
   display: flex;
@@ -627,12 +548,13 @@
   padding-right: 10%;
 }
 
+/*QUINTO BLOQUE DE CONTENIDO --> EXPERTOS*/
+
 .expertos {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  /* padding-top: 5%; */
 }
 
 .expertos-text {
@@ -697,7 +619,6 @@
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid white;
-  /* white-space: normal; */
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 400;
@@ -705,9 +626,12 @@
   line-height: 1.5;
   white-space: normal;
 }
+
 .experto img {
   width: 200px;
 }
+
+/*SEXTO BLOQUE DE CONTENIDO --> REVIEWS*/
 
 .reviews {
   background-color: rgb(244, 242, 236);
@@ -741,13 +665,13 @@
   color: rgb(0, 0, 0);
   line-height: 1.5;
 }
+
 .titulo2 {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
-  /* height: 200px; */
 }
 
 .titulo2 h2 {
@@ -782,8 +706,6 @@
   justify-content: center;
   align-items: center;
   padding-top: 0;
-  /* width: 10%; */
-  /* height: 500px; */
 }
 
 .reviews-img > img {
@@ -825,19 +747,13 @@
   border-radius: 30px;
   padding: 20px;
 }
-/* .review {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-} */
 
 .stars {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .review h2 {
   font-family: 'Montserrat';
   font-size: 18px;
@@ -849,7 +765,6 @@
 
 .nick {
   text-align: center;
-  /* border: 1px red solid; */
 }
 
 .review p {
@@ -861,6 +776,8 @@
   white-space: normal;
 }
 
+/*SEPTIMO BLOQUE DE CONTENIDO --> CIENCIA*/
+
 .imagen-final {
   background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1663167386474x814893465992409000%2FBanner-VITAMINEK2.jpg?w=1024&h=&auto=compress&dpr=3&fit=max');
   height: 700px;
@@ -869,7 +786,6 @@
   background-size: cover;
   position: relative;
   display: flex;
-  /* background-position:  ; */
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
@@ -898,6 +814,8 @@
   margin-top: 0;
   margin-bottom: 80px;
 }
+
+/*OCTAVO BLOQUE DE CONTENIDO --> VALORES EMPRESA*/
 
 .valores {
   background-color: rgb(4, 74, 99);
@@ -936,7 +854,6 @@
   color: rgb(255, 255, 255);
   line-height: 1.5;
   white-space: normal;
-  /* border: 1px solid red; */
   width: 80%;
 }
 
@@ -963,9 +880,6 @@
   width: 15%;
 }
 
-.valor > ul > li > img {
-}
-
 .valor > ul > li {
   gap: 3%;
   display: flex;
@@ -977,13 +891,14 @@
   width: 20px;
 }
 
+/*FOOTER*/
+
 .pie {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(244, 242, 236);
-  /* height: 600px; */
 }
 
 .enlaces {
@@ -992,7 +907,6 @@
   width: 100%;
   justify-content: center;
   justify-items: center;
-  /* height: 300px; */
 }
 
 .enlaces a {
@@ -1025,9 +939,12 @@
   gap: 6%;
 }
 
+.enlaces ul {
+  gap: 10px;
+}
+
 .enlaces > ul > li > ul {
   padding-left: 0;
-  /* border: 1px solid red; */
 }
 
 .enlaces > ul > li > ul {
@@ -1038,13 +955,17 @@
 }
 
 .derechos {
-  /* display: flex;
-  flex-direction: column;
-  text-align: center; */
   font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 400;
   color: rgb(169, 169, 160);
   text-align: center;
   line-height: 1.5;
+}
+
+.derechos > p:first-child {
+  border: 1px solid grey;
+  padding: 15px 15px 15px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
