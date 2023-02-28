@@ -1,6 +1,6 @@
 /*FUENTES*/
-@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Numans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Numans&display=swap");
 
 /*BARRA DE MENU*/
 .menu {
@@ -20,12 +20,12 @@
 }
 
 .menu a {
-  font-family: 'Numans', sans-serif;
+  font-family: "Numans", sans-serif;
 }
 
 .elem-cabe {
   width: 90%;
-  background-image: url('https://well-app.cdn.bubble.io/d75/f1663693747930x866228779135072500/Logo_Noir.svg');
+  background-image: url("https://well-app.cdn.bubble.io/d75/f1663693747930x866228779135072500/Logo_Noir.svg") ;
   height: 20px;
   display: flex;
   align-items: center;
@@ -46,15 +46,15 @@
   width: 12%;
 }
 
-.elem-cabe-left > button {
+.elem-cabe-left>button {
   display: none;
 }
 
-.elem-cabe-left > a {
+.elem-cabe-left>a {
   display: none;
 }
 
-.elem-cabe-left > img {
+.elem-cabe-left>img {
   display: block;
 }
 
@@ -68,11 +68,11 @@
   border-radius: 0px;
 }
 
-.elem-cabe-rigth > div > a > img:first-child {
+.elem-cabe-rigth>div>a>img:first-child {
   width: 20px;
 }
 
-.elem-cabe-rigth > a > img:first-child {
+.elem-cabe-rigth>a>img:first-child {
   width: 20px;
 }
 
@@ -82,7 +82,7 @@
   gap: 10px;
 }
 
-.identificarse > a > p {
+.identificarse>a>p {
   display: none;
 }
 
@@ -92,7 +92,7 @@
   margin: 0px 10px;
   text-decoration: none;
   cursor: pointer;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -114,7 +114,7 @@
   background: rgb(239, 122, 26);
   border: 1px solid rgb(239, 122, 26);
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -131,24 +131,26 @@
   align-items: center;
   background-color: #fd7e14;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 600;
   color: white;
 }
 
-.banner > p {
+.banner>p {
   color: white;
+  
 }
 
 .banner-txt {
   width: 100%;
   color: white;
+  
 }
 
 /**IMAGEN PRINCIPAL DEL HEADER */
 
 .imagen-principal {
-  background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1669625280595x240802983719949900%2FBanner-hero-mobile-rebrand-trad-es.jpg?w=512&h=&auto=compress&dpr=1.25&fit=max');
+  background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1669625280595x240802983719949900%2FBanner-hero-mobile-rebrand-trad-es.jpg?w=512&h=&auto=compress&dpr=1.25&fit=max");
   /* height: 700px; */
   background-repeat: no-repeat;
   /* margin-top: -80px; */
@@ -162,22 +164,22 @@
 }
 
 .imagen-principal-texto h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 32px;
   color: rgb(0, 0, 0);
   width: 80%;
   margin-top: -150px;
 }
 
-.imagen-principal-texto > h2 > strong {
+.imagen-principal-texto>h2>strong {
   font-weight: 600;
   white-space: nowrap;
 }
 
-.imagen-principal-texto > p {
+.imagen-principal-texto>p {
   width: 20%;
   text-align: left;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-weight: 400;
 }
 
@@ -191,7 +193,7 @@
 }
 
 .contenido h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -199,7 +201,7 @@
 }
 
 .contenido p {
-  font-family: 'Numans';
+  font-family: "Numans";
   margin-top: -20px;
 }
 
@@ -229,7 +231,7 @@
   text-align: right;
   color: rgb(250, 203, 160);
   margin: 0;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 55px;
   font-weight: 400;
 }
@@ -237,7 +239,7 @@
 .rutina h3 {
   width: 100%;
   text-align: left;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: 600;
   color: rgb(239, 122, 26);
@@ -284,7 +286,7 @@
   width: 70%;
   border: 1px solid rgb(4, 74, 99);
   text-align: left;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(255, 255, 255);
@@ -293,7 +295,7 @@
 
 .seguimiento-left p {
   width: 70%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(255, 255, 255);
@@ -317,7 +319,7 @@
   cursor: pointer;
   background: rgb(4, 74, 99);
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -353,7 +355,7 @@
 
 .line h2 {
   width: 100%;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 18px;
   font-weight: 400;
   color: rgb(4, 74, 99);
@@ -363,7 +365,7 @@
 
 .line p {
   width: 100%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(4, 74, 99);
@@ -384,7 +386,7 @@
 }
 
 .cabecera h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -396,7 +398,7 @@
 
 .cabecera p {
   width: 100%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   margin-left: 0;
@@ -411,7 +413,7 @@
 }
 
 .cabecera-etapas h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -419,16 +421,18 @@
   width: 100%;
   margin-left: 0;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .cabecera-etapas p {
   width: 100%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
   margin-left: 0;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .etapas p {
@@ -448,6 +452,7 @@
   padding-left: 10%;
   padding-right: 10%;
   margin-left: 0;
+  margin-top: -30px;
 }
 
 .line-etapas {
@@ -460,7 +465,7 @@
 
 .line-etapas h2 {
   width: 90%;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 22px;
   font-weight: 400;
   color: rgb(239, 122, 26);
@@ -468,16 +473,18 @@
   margin-left: 0;
   text-align: left;
   white-space: normal;
+  margin-top: 40px;
 }
 
 .line-etapas p {
   width: 90%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
   line-height: 1.5;
   margin-left: 0;
+  margin-bottom: 30px;
 }
 
 .line-etapas button {
@@ -507,7 +514,7 @@
 }
 
 .tienda-text h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 22px;
   font-weight: 400;
   color: rgb(239, 122, 26);
@@ -517,7 +524,7 @@
 }
 
 .tienda-text p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -568,7 +575,7 @@
 
 .expertos-text h2 {
   width: 80%;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -578,7 +585,7 @@
 
 .expertos-text p {
   width: 80%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -606,7 +613,7 @@
 .experto h2 {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: 600;
   color: rgb(112, 112, 112);
@@ -619,7 +626,7 @@
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -649,7 +656,7 @@
 .titulo h2 {
   width: 80%;
   text-align: left;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(239, 122, 26);
@@ -659,7 +666,7 @@
 
 .titulo p {
   width: 80%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -677,7 +684,7 @@
 .titulo2 h2 {
   width: 80%;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
   color: rgb(0, 0, 0);
@@ -685,7 +692,7 @@
   margin-bottom: 10px;
 }
 
-.titulo2 > button {
+.titulo2>button {
   margin-bottom: 50px;
 }
 
@@ -708,7 +715,7 @@
   padding-top: 0;
 }
 
-.reviews-img > img {
+.reviews-img>img {
   align-self: flex-start;
   min-width: 214px;
   max-width: 214px;
@@ -755,7 +762,7 @@
 }
 
 .review h2 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: 600;
   color: rgb(28, 132, 129);
@@ -768,7 +775,7 @@
 }
 
 .review p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(28, 132, 129);
@@ -779,7 +786,7 @@
 /*SEPTIMO BLOQUE DE CONTENIDO --> CIENCIA*/
 
 .imagen-final {
-  background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1663167386474x814893465992409000%2FBanner-VITAMINEK2.jpg?w=1024&h=&auto=compress&dpr=3&fit=max');
+  background-image: url("https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Fd75%2Ff1663167386474x814893465992409000%2FBanner-VITAMINEK2.jpg?w=1024&h=&auto=compress&dpr=3&fit=max");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -793,7 +800,7 @@
 
 .imagen-final h2 {
   width: 80%;
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 28px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -806,7 +813,7 @@
 .imagen-final p {
   width: 80%;
   padding-right: 2%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -840,7 +847,7 @@
 }
 
 .valor h2 {
-  font-family: 'Numans';
+  font-family: "Numans";
   font-size: 22px;
   font-weight: 400;
   color: rgb(244, 161, 108);
@@ -848,7 +855,7 @@
 }
 
 .valor h3 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -858,7 +865,7 @@
 }
 
 .valor p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(255, 255, 255);
@@ -876,18 +883,18 @@
   align-items: baseline;
 }
 
-.valor > img {
+.valor>img {
   width: 15%;
 }
 
-.valor > ul > li {
+.valor>ul>li {
   gap: 3%;
   display: flex;
   margin-left: -30px;
   justify-items: flex-start;
 }
 
-.valor > ul > li > img {
+.valor>ul>li>img {
   width: 20px;
 }
 
@@ -911,7 +918,7 @@
 
 .enlaces a {
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -919,20 +926,20 @@
 }
 
 .enlaces strong {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   line-height: 1.5;
 }
 
-.enlaces > img {
+.enlaces>img {
   height: 50px;
   padding-top: 40px;
   padding-left: 40px;
 }
 
-.enlaces > ul {
+.enlaces>ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -943,11 +950,11 @@
   gap: 10px;
 }
 
-.enlaces > ul > li > ul {
+.enlaces>ul>li>ul {
   padding-left: 0;
 }
 
-.enlaces > ul > li > ul {
+.enlaces>ul>li>ul {
   display: flex;
   list-style: none;
   gap: 10px;
@@ -955,7 +962,7 @@
 }
 
 .derechos {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   color: rgb(169, 169, 160);
@@ -963,7 +970,7 @@
   line-height: 1.5;
 }
 
-.derechos > p:first-child {
+.derechos>p:first-child {
   border: 1px solid grey;
   padding: 15px 15px 15px 15px;
   margin-left: 20px;
